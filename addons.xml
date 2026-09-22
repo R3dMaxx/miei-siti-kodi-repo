@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.miei_siti" name="I miei siti" version="0.1.0" provider-name="Personal">
+<addon id="plugin.video.miei_siti" name="I miei siti" version="0.1.1" provider-name="Personal">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -9,7 +9,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="it_IT">Accesso personale a servizi web compatibili con Kodi</summary>
-    <description lang="it_IT">Prima versione: integrazione Rakuten TV per i canali Live gratuiti disponibili in Italia tramite gli endpoint del servizio. Non aggira DRM o autenticazione.</description>
+    <description lang="it_IT">Integrazione Rakuten TV per i canali Live gratuiti disponibili in Italia tramite gli endpoint del servizio. Non aggira DRM o autenticazione.</description>
     <platform>all</platform>
     <license>MIT</license>
     <assets>
