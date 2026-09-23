@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.miei_siti" name="I miei siti" version="0.1.1" provider-name="Personal">
+<addon id="plugin.video.miei_siti" name="MediaHub Italia" version="0.1.5" provider-name="Personal">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="plugin.video.youtube" version="6.8.10"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="it_IT">Accesso personale a servizi web compatibili con Kodi</summary>
-    <description lang="it_IT">Integrazione Rakuten TV per i canali Live gratuiti disponibili in Italia tramite gli endpoint del servizio. Non aggira DRM o autenticazione.</description>
+    <summary lang="it_IT">TV, video e liste M3U personali in un solo addon</summary>
+    <description lang="it_IT">Canali Live gratuiti Rakuten TV, una selezione di canali YouTube e liste M3U online o locali per TV, radio e VOD. Non aggira DRM, autenticazione o restrizioni geografiche.</description>
     <platform>all</platform>
     <license>MIT</license>
     <assets>
