@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.miei_siti" name="MediaHub Italia" version="0.1.7" provider-name="Personal">
+<addon id="plugin.video.miei_siti" name="MediaHub Italia" version="0.1.8" provider-name="Personal">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="plugin.video.youtube" version="6.8.10"/>
