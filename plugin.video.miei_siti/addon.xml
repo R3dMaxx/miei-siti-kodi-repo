@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.miei_siti" name="MediaHub Italia" version="0.1.9" provider-name="Personal">
+<addon id="plugin.video.miei_siti" name="MediaHub Italia" version="0.2.0" provider-name="Personal">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="plugin.video.youtube" version="6.8.10"/>
@@ -8,8 +8,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="it_IT">TV, guide dei programmi e liste M3U personali in un solo addon</summary>
-    <description lang="it_IT">Canali Live gratuiti Rakuten TV, canali YouTube, liste M3U e guida TV italiana preimpostata e configurabile. Non aggira DRM, autenticazione o restrizioni geografiche.</description>
+    <summary lang="it_IT">Film, serie, uscite italiane, TV e liste personali</summary>
+    <description lang="it_IT">Ricerca TMDb con piattaforme italiane e uscite al cinema nei prossimi 60 giorni; guida TV italiana, Rakuten TV, YouTube e liste M3U. Non aggira DRM o autenticazione.</description>
     <platform>all</platform>
     <license>MIT</license>
     <assets>
