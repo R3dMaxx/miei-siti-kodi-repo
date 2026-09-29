@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.miei_siti" name="MediaHub Italia" version="0.2.0" provider-name="Personal">
+<addon id="plugin.video.miei_siti" name="MediaHub Italia" version="0.2.4" provider-name="Personal">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="plugin.video.youtube" version="6.8.10"/>
@@ -9,8 +9,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="it_IT">Film, serie, uscite italiane, TV e liste personali</summary>
-    <description lang="it_IT">Ricerca TMDb con piattaforme italiane e uscite al cinema nei prossimi 60 giorni; guida TV italiana, Rakuten TV, YouTube e liste M3U. Non aggira DRM o autenticazione.</description>
+    <summary lang="it_IT">Cerca film e serie, scopri le uscite italiane e segui la TV</summary>
+    <description lang="it_IT">MediaHub Italia riunisce ricerca TMDb, disponibilita' italiane, cinema in arrivo, guida TV, titoli seguiti, Rakuten Live, YouTube e liste M3U. I calendari streaming italiani si aprono su JustWatch. Non aggira DRM o autenticazione.</description>
     <platform>all</platform>
     <license>MIT</license>
     <assets>
